@@ -6,7 +6,7 @@
 # For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2,
 # since we must remove all of them.
 
-def count_invalid_parentheses(input_string):
+def count_invalid_parantheses(input_string):
     count = 0
     invalid_count = input_string.find('(')
     for index in range(invalid_count, len(input_string)):
@@ -17,7 +17,7 @@ def count_invalid_parentheses(input_string):
     return abs(count) + invalid_count
 
 
-```if __name__ == '__main__':```
+if __name__ == '__main__':
     given_string = '(((((()((('
-    answer = count_invalid_parentheses(given_string)
+    answer = count_invalid_parantheses(given_string)
     print(answer)
