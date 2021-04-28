@@ -22,7 +22,7 @@ def max_values_of_sub_array(int_arr, k):
 
 
 if name == '__main__':
-    input_arr = input('Enter Number Saperated by ,   = ').split(',')
+    input_arr = input('Enter Number Separated by , = ').split(',')
     int_arr = []
     for i in range(len(input_arr) - 1):
         int_arr.append(int(input_arr[i]))
