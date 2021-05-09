@@ -21,7 +21,7 @@ def max_values_of_sub_array(int_arr, k):
         print(max(int_arr[index: index + k]))
 
 
-if name == '__main__':
+if __name__ == '__main__':
     input_arr = input('Enter Number Separated by , = ').split(',')
     int_arr = []
     for i in range(len(input_arr) - 1):
